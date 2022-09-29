@@ -1,7 +1,7 @@
 <?php
     function getConnection() {
-		//$conn = new mysqli("localhost", "root","B00mB00m","warzone");
-		$conn = new mysqli("localhost", "id230181_cartesian_user","fertgut","id230181_cartesian");
+		$conn = new mysqli("localhost", "root","YourPasswordGoesHere","warzone");
+		//$conn = new mysqli("localhost", "root","fertgut","id230181_cartesian");
 		if ($conn->connect_errno) {
             printf("Connection failed: %s\n", $conn->connect_error);
             exit();
