@@ -1,5 +1,6 @@
 //board functions
 //NTS I want to show some additional comments here.
+//NTS I want to show that I know how to save stuff to files.
 var squareWidth = 40;
 var xSquareCount = 30;//20  30
 var ySquareCount=10;//7  10
